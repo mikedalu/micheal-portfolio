@@ -1,0 +1,30 @@
+$primary: #537a5a;
+// $primary2: #3f6212;
+$primary2: #416248;
+$grey: #d8d9db;
+$grey2: #d4d4d4;
+$secondary: #4d7c0f;
+$light-green: #c7f38d;
+
+.skills-main {
+	width: 80%;
+	margin: 10rem auto;
+	.skills {
+		display: grid;
+		gap: 5px;
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+		grid-auto-rows: repeat(2, 100px);
+		justify-content: center;
+		align-content: center;
+		row-gap: 6rem;
+		column-gap: 6rem;
+	}
+	.skills li {
+		font-size: 4rem;
+		list-style-type: none;
+		font-weight: 400;
+		border: 1px solid $light-green;
+		border-radius: 12px;
+		padding: 10px;
+	}
+}

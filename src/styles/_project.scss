@@ -1,0 +1,34 @@
+.project-hero {
+	width: 100%;
+	margin: auto;
+	padding-top: 2rem;
+	background: url("../../public/images/project-hero.jpg");
+	background-blend-mode: darken;
+	background-color: rgb(23, 63, 23);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+
+	.project-hero-text h1 {
+		font-size: 65px;
+		text-align: center;
+		padding-top: 8rem;
+		margin-top: 4rem;
+	}
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// background-color: red;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f7f7f7;
+}

@@ -1,0 +1,95 @@
+// Colors
+$primary: #537a5a;
+// $primary2: #3f6212;
+$primary2: #416248;
+$grey: #d8d9db;
+$grey2: #d4d4d4;
+$secondary: #4d7c0f;
+$light-green: #c7f38d;
+
+.contact-main {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0rem auto;
+	margin: 0 auto;
+	box-shadow: 0px 0px 20px #000;
+	background: $grey;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.form-group {
+	width: 80%;
+	margin: 20px auto;
+	label {
+		color: $primary;
+		font-size: 24px;
+		font-weight: 500;
+	}
+	#firstName {
+		height: 42px;
+		font-size: 20px;
+	}
+	input,
+	textarea {
+		width: 100%;
+		padding: 5px;
+		border: 1px solid rgba(128, 128, 128, 0.199);
+		margin-top: 5px;
+		border-radius: 12px;
+	}
+}
+
+textarea {
+	resize: vertical;
+}
+button[type="submit"] {
+	display: grid;
+	place-items: center;
+	width: 60%;
+	border: none;
+	border-radius: 40px;
+	outline: none;
+	padding: 20px;
+	font-size: 24px;
+	color: $grey;
+	background-color: $primary;
+	text-align: center;
+	cursor: pointer;
+	margin: 10px auto;
+	transition: 0.3s ease backgrond-color;
+	&:hover {
+		background-color: $secondary;
+	}
+}
+
+#status {
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+// #status.success {
+// 	background-color: green;
+// 	animation: status 4s ease forwards;
+// }
+#status.error {
+	background-color: brown;
+}
+
+@keyframes status {
+	0% {
+		opacity: 1;
+		pointer-events: all;
+	}
+	90% {
+		opacity: 1;
+		pointer-events: all;
+	}
+	100% {
+		opacity: 0;
+		pointer-events: none;
+	}
+}
