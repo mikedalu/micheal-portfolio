@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 
 export const Nav = styled.nav`
-	background: #000;
+	background: #18181b;
 	height: 80px;
 	display: flex;
 	justify-content: space-between;

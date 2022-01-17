@@ -26,9 +26,9 @@ function Home() {
 			<main data-aos="fade-in" className="main">
 				<p className="main-text">
 					My name is Michael Dalu and I’m a frontend web developer. I’ve made my entrance onto the scene fairly recently and have so
-					far picked up skills in a number of frontend development technologies. I have an eye for aesthetics and a penchant for paying
-					attention to design details. These personal attributes help me deliver top quality products with an appealing user interface
-					and a most satisfying user experience.
+					far picked up skills in a number of frontend development technologies. I have an eye for aesthetics and I love paying
+					attention to details . These personal attributes help me deliver top quality products with an appealing user interface and a
+					most satisfying user experience.
 				</p>
 				<div data-aos="flip-right" className="html-img-2">
 					<img src="./images/hero2.png" alt="HTML tag code" />
