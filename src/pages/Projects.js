@@ -29,6 +29,8 @@ function Projects() {
 		.content {
 			width: 50%;
 			color: #374151;
+			border-right: 4px solid green;
+			margin-right: 5px;
 			padding: 2rem;
 			line-height: 1.5;
 			h3 {
