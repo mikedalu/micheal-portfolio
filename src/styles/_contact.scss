@@ -51,7 +51,7 @@ button[type="submit"] {
 	border: none;
 	border-radius: 40px;
 	outline: none;
-	padding: 20px;
+	padding: 10px;
 	font-size: 24px;
 	color: $grey;
 	background-color: $primary;
@@ -60,6 +60,6 @@ button[type="submit"] {
 	margin: 10px auto;
 	transition: 0.3s ease backgrond-color;
 	&:hover {
-		background-color: $secondary;
+		background-color: $primary2;
 	}
 }
