@@ -7,14 +7,14 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<div className="social-icons">
-				<a href="https://github.com/mikedalu" target="_blank">
+				<a href="https://github.com/mikedalu">
 					<AiOutlineGithub />
 				</a>
-				<a href="https://www.linkedin.com/in/mike-simdi-6b0847156" target={"_blank"}>
+				<a href="https://www.linkedin.com/in/mike-simdi-6b0847156">
 					<AiOutlineLinkedin />
 				</a>
 
-				<a href="https://web.facebook.com/michael.dalu" target={"_blank"}>
+				<a href="https://web.facebook.com/michael.dalu">
 					<FaFacebookSquare />
 				</a>
 			</div>
