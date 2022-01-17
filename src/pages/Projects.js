@@ -29,7 +29,7 @@ function Projects() {
 		.content {
 			width: 50%;
 			color: #374151;
-			border-right: 4px solid green;
+			border-right: 4px solid #537a5a;
 			margin-right: 5px;
 			padding: 2rem;
 			line-height: 1.5;
