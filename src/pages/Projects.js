@@ -1,7 +1,66 @@
 import React from "react";
-import simi2 from "../assets/simi2.jpg";
+import dogImg from "../assets/dogApp.jpg";
+import gtoneImg from "../assets/gtone.jpg";
+import tomShopImg from "../assets/tomshop.jpg";
+import todoImg from "../assets/todo.jpg";
+import styled from "styled-components";
+import { AiOutlineGithub } from "react-icons/ai";
 
 function Projects() {
+	const Button = styled.button`
+		background-color: #537a5a;
+		color: #ccc;
+		padding: 5px;
+		font-size: 18px;
+		cursor: pointer;
+	`;
+	const Style = styled.div`
+		.card {
+			width: 100%;
+			padding-left: 2rem;
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-between;
+			flex-wrap: nowrap;
+			border: 2px solid #ccc;
+			margin-top: 20px;
+			box-shadow: 0px 0px 20px #374151;
+		}
+		.content {
+			width: 50%;
+			color: #374151;
+			padding: 2rem;
+			line-height: 1.5;
+			h3 {
+				text-align: center;
+				font-weight: bold;
+				font-size: 28px;
+				margin: 10px;
+				color: 374151;
+			}
+			p {
+				font-size: 18px;
+			}
+		}
+		.card img {
+			width: 50%;
+			height: auto;
+		}
+		@media (max-width: 1000px) {
+			.card {
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				.content {
+					width: 100%;
+				}
+				.card img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+		}
+	`;
 	return (
 		<>
 			<section class="project-hero">
@@ -9,32 +68,103 @@ function Projects() {
 					<h1>Personal Projects</h1>
 				</div>
 			</section>
-			<main class="main">
-				<section className=" card dog-site">
-					<p> lorem sidfo sfoso odfdjdfhdjddfk df </p>
-					<img src={simi2} alt="Dog Image Gallery" />
-				</section>
-
-				<section className=" card g-tone" alt="g-tone site">
-					<p>dfdfsdsdd fdddddddddddddddddddddddddddddddddd</p>
-					<img src={simi2} height={"300"} width={"300"} alt="Tom's fis" />
-				</section>
-
-				<section className=" card dog-site">
-					<p>sdffffffffffffffffffffffffff</p>
-					<img src={simi2} alt="" />
-				</section>
-
-				<section className=" card dog-site">
-					<p>sdfdsdfssdd</p>
-					<img src={simi2} alt="" />
-				</section>
-
-				<section className=" card dog-site">
-					<p>rfgfdfggggggggggggggggggg</p>
-					<img src={simi2} alt="" />
-				</section>
-			</main>
+			<Style>
+				<main class="main">
+					<section className=" card dog-site">
+						<div className="content">
+							<h3>Dog Search App</h3>
+							<p>
+								The Dog search website A website built to dynamically search pictures of dogs classified by breed. It is build
+								using React.js and API integration
+								<ul>
+									<li>React</li>
+									<li>CSS</li>
+									<li>
+										<a href="https://mikedalu.github.io/Tom-s-FishShop/">
+											<Button>Visit site</Button>
+										</a>
+									</li>
+								</ul>
+								<a href="https://github.com/mikedalu/Tom-s-FishShop">
+									<AiOutlineGithub />
+								</a>
+							</p>
+						</div>
+						<img src={dogImg} alt="Dog Image Gallery" />
+					</section>
+					<section className=" card dog-site">
+						<div className="content">
+							<h3>E commerce -Gtone multiB</h3>
+							<p>
+								The E-commerce website that is designed to sell fashion accessories ranging from watches, earings, necklaces
+								to rings. The following tech-stack was used to accomplish this project
+								<ul>
+									<li>React</li>
+									<li>CSS/SASS</li>
+									<li>Styled-components</li>
+									<li>Bootsrap</li>
+									<li>
+										<a href="https://wonderful-wozniak-dbc68a.netlify.app/">
+											<Button>Visit site</Button>
+										</a>
+									</li>
+								</ul>
+								<a href="https://github.com/mikedalu/g-tone">
+									<AiOutlineGithub />
+								</a>
+							</p>
+						</div>
+						<img src={gtoneImg} alt="gtone Website" />
+					</section>
+					<section className=" card dog-site">
+						<div className="content">
+							<h3>Online Fish-shop</h3>
+							<p>
+								Tom's fish shop is desinged to allow fish dish lovers to be able to order their favourite fish dish at the
+								comfort of their homes. The follwing was used to build the project.
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JavaScript</li>
+									<li>Bootsrap</li>
+									<li>
+										<a href="https://festive-fermat-845eb0.netlify.app/">
+											<Button>Visit site</Button>
+										</a>
+									</li>
+								</ul>
+								<a href="https://github.com/mikedalu/Tom-s-FishShop">
+									<AiOutlineGithub />
+								</a>
+							</p>
+						</div>
+						<img src={tomShopImg} alt="Tom's fish shop website" />
+					</section>
+					<section className=" card dog-site">
+						<div className="content">
+							<h3>To Do App</h3>
+							<p>
+								It was build using simple HTML CSS and JavaScript, to demonstrate simple DOM manipulation using JavaScript
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>JavaScript</li>
+									<li>Bootsrap</li>
+									<li>
+										<a href="https://mikedalu.github.io/toDoProject/">
+											<Button>Visit site</Button>
+										</a>
+									</li>
+								</ul>
+								<a href="https://github.com/mikedalu/toDoProject">
+									<AiOutlineGithub />
+								</a>
+							</p>
+						</div>
+						<img src={todoImg} alt="Todo app picture" />
+					</section>
+				</main>
+			</Style>
 		</>
 	);
 }
