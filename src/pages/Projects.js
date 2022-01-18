@@ -82,12 +82,12 @@ function Projects() {
 									<li>React</li>
 									<li>CSS</li>
 									<li>
-										<a href="https://mikedalu.github.io/Tom-s-FishShop/">
+										<a href="https://eager-lovelace-0047d9.netlify.app/">
 											<Button>Visit site</Button>
 										</a>
 									</li>
 								</ul>
-								<a href="https://github.com/mikedalu/Tom-s-FishShop">
+								<a href="https://github.com/mikedalu/DogSearchApp-2">
 									<AiOutlineGithub />
 								</a>
 							</p>
