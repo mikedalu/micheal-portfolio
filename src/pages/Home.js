@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 // import styled from "styled-components";
+import CV from "../assets/document/CVMicheal.pdf";
 import Aos from "aos";
 import "aos/dist/aos.css"; //animation library
 
@@ -35,7 +36,7 @@ function Home() {
 				</div>
 			</main>
 			<button data-aos="fade-up" className="btn" style={{ marginBottom: "2.2.4rem" }}>
-				Download my CV
+				<a href={CV}>Download my CV</a>
 			</button>
 		</>
 	);

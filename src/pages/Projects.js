@@ -92,7 +92,7 @@ function Projects() {
 								</a>
 							</p>
 						</div>
-						<img src={dogImg} alt="Dog Image Gallery" />
+						<img src={dogImg} alt="Dog Gallery" />
 					</section>
 					<section className=" card dog-site">
 						<div className="content">
@@ -163,7 +163,7 @@ function Projects() {
 								</a>
 							</p>
 						</div>
-						<img src={todoImg} alt="Todo app picture" />
+						<img src={todoImg} alt="Todo app " />
 					</section>
 				</main>
 			</Style>
