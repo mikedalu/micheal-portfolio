@@ -39,7 +39,7 @@ export const Ul = styled.ul`
 
 	@media screen and (max-width: 760px) {
 		display: block;
-		height: 100%;
+		height: 100vh;
 		width: 50%;
 		padding-left: 50px;
 
