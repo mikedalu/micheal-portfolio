@@ -22,7 +22,7 @@ export const Logo = styled.span`
 	align-self: center;
 	border-radius: 40px;
 	background-color: #fff;
-	padding: 10px;
+	padding: 4px;
 	transition: 0.4s ease;
 	&:hover {
 		background-color: #c7f38d;
