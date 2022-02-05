@@ -21,14 +21,11 @@ export const LogoBrand = styled.span`
 export const Logo = styled.span`
 	align-self: center;
 	border-radius: 40px;
-	color: #3f6212;
 	background-color: #fff;
 	padding: 10px;
-	font-family: "Kings", cursive;
+	transition: 0.4s ease;
 	&:hover {
 		background-color: #c7f38d;
-		color: #fff;
-		transition: 0.4s ease;
 	}
 `;
 

@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, LogoBrand, Logo, NavLink, Li, Hamburger, Ul, SignInBtn, NavBtnLink, CloseBtn } from "./NavBarElements";
+import logo from "../assets/myLogo.png";
+import { Nav, LogoBrand, Logo, NavLink, Li, Hamburger, Ul, CloseBtn } from "./NavBarElements";
 import { useState } from "react";
 
 function NavBar() {
@@ -21,9 +22,11 @@ function NavBar() {
 		<>
 			<Nav>
 				<LogoBrand>
-					<Logo>M</Logo>
+					<Logo>
+						<img src={logo} alt="michealLogo" height={"40"} width={"44"} />
+					</Logo>
 					<NavLink className={"brand-name"} to="/">
-						Micheal-D
+						Micheal
 					</NavLink>
 				</LogoBrand>
 				{navBtn}
