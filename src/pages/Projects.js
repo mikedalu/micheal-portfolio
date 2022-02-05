@@ -40,7 +40,7 @@ function Projects() {
 				margin: 10px;
 				color: 374151;
 			}
-			p {
+			.content-container {
 				font-size: 18px;
 			}
 		}
@@ -65,17 +65,17 @@ function Projects() {
 	`;
 	return (
 		<>
-			<section class="project-hero">
-				<div class="project-hero-text">
+			<section className="project-hero">
+				<div className="project-hero-text">
 					<h1>Personal Projects</h1>
 				</div>
 			</section>
 			<Style>
-				<main class="main">
+				<main className="main">
 					<section className=" card dog-site">
 						<div className="content">
 							<h3>Dog Search App</h3>
-							<p>
+							<div className="content-container">
 								The Dog search website A website built to dynamically search pictures of dogs classified by breed. It is build
 								using React.js and API integration
 								<ul>
@@ -90,14 +90,14 @@ function Projects() {
 								<a href="https://github.com/mikedalu/DogSearchApp-2">
 									<AiOutlineGithub />
 								</a>
-							</p>
+							</div>
 						</div>
 						<img src={dogImg} alt="Dog Gallery" />
 					</section>
 					<section className=" card dog-site">
 						<div className="content">
 							<h3>E commerce -Gtone multiB</h3>
-							<p>
+							<div className="content-container">
 								The E-commerce website that is designed to sell fashion accessories ranging from watches, earings, necklaces
 								to rings. The following tech-stack was used to accomplish this project
 								<ul>
@@ -114,14 +114,14 @@ function Projects() {
 								<a href="https://github.com/mikedalu/g-tone">
 									<AiOutlineGithub />
 								</a>
-							</p>
+							</div>
 						</div>
 						<img src={gtoneImg} alt="gtone Website" />
 					</section>
 					<section className=" card dog-site">
 						<div className="content">
 							<h3>Online Fish-shop</h3>
-							<p>
+							<div className="content-container">
 								Tom's fish shop is desinged to allow fish dish lovers to be able to order their favourite fish dish at the
 								comfort of their homes. The follwing was used to build the project.
 								<ul>
@@ -138,14 +138,14 @@ function Projects() {
 								<a href="https://github.com/mikedalu/Tom-s-FishShop">
 									<AiOutlineGithub />
 								</a>
-							</p>
+							</div>
 						</div>
 						<img src={tomShopImg} alt="Tom's fish shop website" />
 					</section>
 					<section className=" card dog-site">
 						<div className="content">
 							<h3>To Do App</h3>
-							<p>
+							<div className="content-container">
 								It was build using simple HTML CSS and JavaScript, to demonstrate simple DOM manipulation using JavaScript
 								<ul>
 									<li>HTML</li>
@@ -161,7 +161,7 @@ function Projects() {
 								<a href="https://github.com/mikedalu/toDoProject">
 									<AiOutlineGithub />
 								</a>
-							</p>
+							</div>
 						</div>
 						<img src={todoImg} alt="Todo app " />
 					</section>

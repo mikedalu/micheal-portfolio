@@ -3,13 +3,13 @@ import React from "react";
 function Skills() {
 	return (
 		<>
-			<section class="project-hero">
-				<div class="project-hero-text">
+			<section className="project-hero">
+				<div className="project-hero-text">
 					<h1>My Skills</h1>
 				</div>
 			</section>
-			<main class="skills-main">
-				<ul class="skills">
+			<main className="skills-main">
+				<ul className="skills">
 					<li>HTML/CSS (Grid/Flexbox)</li>
 					<li>JavaScript</li>
 					<li>React JS</li>
@@ -17,6 +17,7 @@ function Skills() {
 					<li>Tailwind CSS</li>
 					<li>Bootstrap</li>
 					<li>Styled components</li>
+					<li>Wordpress</li>
 				</ul>
 			</main>
 		</>

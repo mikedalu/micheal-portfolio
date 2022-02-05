@@ -39,7 +39,7 @@ export const Ul = styled.ul`
 
 	@media screen and (max-width: 760px) {
 		display: block;
-		height: 100vh;
+		height: 100%;
 		width: 50%;
 		padding-left: 50px;
 
@@ -69,10 +69,11 @@ export const Li = styled.li`
 export const NavLink = styled(Link)`
 	color: #fff;
 	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+
 	&:hover {
 		color: #c7f38d;
 		border-radius: 4px;
-		transition: all 0.2s ease-in-out;
 	}
 	padding: 0 1rem;
 	cursor: pointer;
@@ -94,6 +95,7 @@ export const Hamburger = styled(FaBars)`
 		positioin: absolute;
 		top: 0;
 		right: 0;
+		bottom: 0;
 		transform: translate(-100%, 75%);
 		font-size: 3.5rem;
 		cursor: pointer;
@@ -112,30 +114,5 @@ export const CloseBtn = styled(AiOutlineClose)`
 		transform: translate(-100%, 75%);
 		font-size: 3.5rem;
 		cursor: pointer;
-	}
-`;
-
-export const NavBtnLink = styled(Link)`
-	border-radius: 4px;
-	background: #256ce1;
-	padding: 10px 22px;
-	color: #fff;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	transition: all 0.2s ease-in-out;
-	text-decoration: none;
-
-	&:hover {
-		transition: all 0.2s ease-in-out;
-		background: #fff;
-		color: #010606;
-	}
-`;
-export const SignInBtn = styled.div`
-	align-self: center;
-
-	@media screen and (max-width: 760px) {
-		display: none;
 	}
 `;
