@@ -31,8 +31,8 @@ function Home() {
 						Javascript and React JS. I have an eye for aesthetics and I love solving problems and improving on things.
 					</p>
 					<p>
-						These personal attributes help me deliver top quality products with an appealing user interface and a most satisfying
-						user experience. I am passionate about UI designs and possess working knowledge of Adobephotoshop and Figma
+						These personal attributes help me deliver top quality products with appealing user interface and a most satisfying user
+						experience. I am passionate about UI designs and possess working knowledge of Adobephotoshop and Figma
 					</p>
 				</div>
 
