@@ -25,12 +25,17 @@ function Home() {
 				</div>
 			</section>
 			<main data-aos="fade-in" className="main">
-				<p className="main-text">
-					My name is Michael Dalu and I’m a frontend web developer. I’ve made my entrance onto the scene fairly recently and have so
-					far picked up skills in a number of frontend development technologies. I have an eye for aesthetics and I love paying
-					attention to details . These personal attributes help me deliver top quality products with an appealing user interface and a
-					most satisfying user experience.
-				</p>
+				<div className="main-text">
+					<p>
+						I am a frontend web developer with experience in building responsive websites. Proficient in HTML, CSS, Bootsrap,
+						Javascript and React JS. I have an eye for aesthetics and I love solving problems and improving on things.
+					</p>
+					<p>
+						These personal attributes help me deliver top quality products with an appealing user interface and a most satisfying
+						user experience. I am passionate about UI designs and possess working knowledge of Adobephotoshop and Figma
+					</p>
+				</div>
+
 				<div data-aos="flip-right" className="html-img-2">
 					<img src="./images/hero2.png" alt="HTML tag code" />
 				</div>
