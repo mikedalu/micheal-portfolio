@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import CV from "../assets/document/CVMicheal.pdf";
 import Aos from "aos";
 import "aos/dist/aos.css"; //animation library
+import Parag from "./text.json";
 
 function Home() {
 	useEffect(() => {
@@ -26,14 +27,8 @@ function Home() {
 			</section>
 			<main data-aos="fade-in" className="main">
 				<div className="main-text">
-					<p>
-						I am a frontend web developer with experience in building responsive websites. Proficient in HTML, CSS, Bootsrap,
-						Javascript and React JS. I have an eye for aesthetics and I love solving problems and improving on things.
-					</p>
-					<p>
-						These personal attributes help me deliver top quality products with appealing user interface and a most satisfying user
-						experience. I am passionate about UI designs and possess working knowledge of Adobephotoshop and Figma
-					</p>
+					<p>{Parag.firstP}</p>
+					<p>{Parag.secondP}</p>
 				</div>
 
 				<div data-aos="flip-right" className="html-img-2">
