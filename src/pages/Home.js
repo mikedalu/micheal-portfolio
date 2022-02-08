@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 // import styled from "styled-components";
 import CV from "../assets/document/CVMicheal.pdf";
-import Parag from "./text.json";
-
 import Aos from "aos";
 import "aos/dist/aos.css"; //animation library
+import Parag from "./text.json";
 
 function Home() {
 	useEffect(() => {
@@ -30,7 +29,6 @@ function Home() {
 				<div className="main-text">
 					<p>{Parag.firstP}</p>
 					<p>{Parag.secondP}</p>
-					<p>{Parag.thirdP}</p>
 				</div>
 
 				<div data-aos="flip-right" className="html-img-2">
