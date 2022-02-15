@@ -11,6 +11,20 @@ export const Nav = styled.nav`
 	padding: 0.5rem calc((100vw - 1000px) / 2);
 	z-index: 10;
 `;
+export const CvButton = styled.button`
+	width: auto;
+	background-color: #ccc;
+	border: none;
+	border-radius: 10px;
+	a:link,
+	a:visited {
+		text-decoration: none;
+		color: #416248;
+		padding: 2rem;
+		font-size: 18px;
+		font-weight: bold;
+	}
+`;
 export const LogoBrand = styled.span`
 	display: flex;
 	justify-content: space-between;
@@ -48,6 +62,9 @@ export const Ul = styled.ul`
 		left: -100%;
 		background-color: black;
 		transition: 0.5s ease;
+		li:last-child {
+			display: none;
+		}
 
 		&.active {
 			top: 80px;

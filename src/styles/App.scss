@@ -3,19 +3,51 @@
 @import "./contact";
 @import "./variables";
 
-* {
+// Reset Box-sizing
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
-html {
-	box-sizing: border-box;
 
+// Reset Margin
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+	margin: 0;
+}
+
+// make images easier to work with
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+// make form elements easier to work with
+input,
+button,
+select,
+textarea {
+	font: inherit;
+}
+
+html {
 	font-size: 48%;
+	overflow-x: hidden;
 }
 body {
 	font-family: "Inter", sans-serif;
-	height: 100%;
+	line-height: 1.5;
+	min-height: 100vh;
+	overflow-x: hidden;
+	// height: 100%;
 	width: 100%;
 	font-size: 1.8rem;
 	background-color: $primary;

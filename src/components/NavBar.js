@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../assets/myLogo.png";
-import { Nav, LogoBrand, Logo, NavLink, Li, Hamburger, Ul, CloseBtn } from "./NavBarElements";
+import { Nav, LogoBrand, Logo, NavLink, Li, Hamburger, Ul, CloseBtn, CvButton } from "./NavBarElements";
+import CV from "../assets/document/CVMicheal.pdf";
+
 import { useState } from "react";
 
 function NavBar() {
@@ -42,6 +44,11 @@ function NavBar() {
 					</Li>
 					<Li>
 						<NavLink to="/contact">Contact</NavLink>
+					</Li>
+					<Li>
+						<CvButton>
+							<a href={CV}>Download my CV</a>
+						</CvButton>
 					</Li>
 				</Ul>
 			</Nav>
